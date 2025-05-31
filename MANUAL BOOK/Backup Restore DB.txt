@@ -1,0 +1,8 @@
+BACKUP
+expdp [nama_schema]/[password]@[tns] DIRECTORY=[nama_dir_backup] DUMPFILE=[nama_file_export].dmp LOGFILE= [nama_log_file].log SCHEMAS='[nama_schema]' 
+
+RESTORE
+impdp [nama_schema]/[password]@[tns] DIRECTORY=[nama_dir_restore] DUMPFILE=[nama_file_import].dmp 
+
+ALTERNATE
+imp [nama_schema]/[password] file=[nama_file].dmp log=[nama_file].log fromuser=[from_schema] touser=[to_schema]

@@ -1,0 +1,20 @@
+Standarisasi No/Nama/Deskripsi:
+
+Commit  NOFPP/TICKET - DP v1.0.0 Rev 1 (Rev 1 - Rev... untuk kondisi masih development)
+Contoh : 034FPP2019 - DP v5.1.0
+---------
+
+Merge/Pull Request        YYYYMMDD NOFPP/TICKET
+Description               NAMA PROJECT/TICKET
+
+Contoh:
+Merge/Pull Request        20191212 034FPP2019
+Description               Project Testing 2
+---------
+
+Tag                   YYYYMMDD_NOFPPTICKET
+Description          [NOFPP/TICKET] NAMA PROJECT
+
+Contoh:
+Tag                  20191212_034FPP2019
+Description          [034/FPP/II/2019] Project Testing 2
